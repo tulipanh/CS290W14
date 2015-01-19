@@ -1,0 +1,59 @@
+table, th, tr, td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+th {
+	font-weight: bold;
+}
+
+.ital {
+	font-style: italic;
+}
+
+.redtext {
+	color: red;
+}
+
+.bluetext {
+	color: blue;
+}
+
+.greenback {
+	background-color: #00FF66;
+}
+
+.blueback {
+	background-color: #33CCFF;
+}
+
+dt:hover + dd {
+	background-color: #9966FF;
+}
+
+.outer-content {
+	margin-top: 20px;
+	float: left;
+	width: 75%;
+	height: 100px;
+	background-color: #CC66CC;
+	clear: left;
+}
+
+.inner-content {
+	width: 75%;
+	height: 50%;
+	background-color: #33CCFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+.imgtext {
+	margin-top: 20px;
+	float: left;
+}
+
+#img {
+	float: left;
+}
