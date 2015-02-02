@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Gist Request Site</title>
+	<script src="gistsettings.js"></script>
+</head>
+<body>
+	<header>Gist Requester</header>
+	<div id="settings"></div>
+	<form>
+		<div>Number of Pages: 
+			<action="">
+			<select name="num_pages">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+		</div>
+		<div>Select Which Languages to List:</div>
+		<div><input type="checkbox" id="list_python"> Python</div>
+		<div><input type="checkbox" id="list_json"> JSON</div>
+		<div><input type="checkbox" id="list_javascript"> JavaScript</div>
+		<div><input type="checkbox" id="list_sql"> SQL</div>
+
+		<div><input type="button" name="get_gists" onclick="getGists()" value="Search"></div>
+
+	</form>
+
+	<div id="favorites"></div>
+	<div id="searchlist"></div>
+
+</body>
+</html>
