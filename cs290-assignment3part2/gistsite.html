@@ -5,7 +5,7 @@
 	<title>Gist Request Site</title>
 	<script src="gistsettings.js"></script>
 </head>
-<body>
+<body onload="getSettings()">
 	<header>Gist Requester</header>
 	<div id="settings"></div>
 	<form>
@@ -29,7 +29,10 @@
 
 	</form>
 
+	<div><fieldset>
+	<header>Favorited Gists:</header>
 	<div id="favorites"></div>
+	</fieldset></div>
 	<div id="searchlist"></div>
 
 </body>
