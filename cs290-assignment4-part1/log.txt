@@ -1,0 +1,7 @@
+Start: Sat, 7 Feb 2015 10:30:00 -0600
+End: Sun, 8 Feb 2015 01:08:33 -0600
+Tasks: Started 10:30. Completed and added multiplication table php page.
+
+Start: Sat, 8 Feb 2015 08:00:00 -0600
+End: Sun, 8 Feb 2015 23:41:57 -0600
+Tasks: Started at 8:00. Added login, loopback, and two content files.
